@@ -2,10 +2,11 @@ local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/liebertsx
 
 local key = "yourkey123"
 local link = "https://pandadevelopment.net/getkey?service=authsal"
-local script = [[loadstring(game:HttpGet("https://raw.githubusercontent.com/Iagawuqr/Murder-mystery/refs/heads/main/Murder%20mystery%20by%20sla"))()
+local script = [[
 print("succes")
 ]]
 
 lib:Create(key,link,script)
+
 
 
